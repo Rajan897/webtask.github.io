@@ -1,0 +1,6 @@
+Hello! How can I help you?
+Please provide more details.
+I'm sorry I don't understand.
+ISARD means In-service Aircraft Referential data It is a dashboard which registers MSN Changes in a backend and propagates them to enterprise data hubs such as ACMM and Skywise Objective is not to provide directly the data to any customer application but they must retrieve information from enterprise data hubs.
+SNCT(Supply Network Control Tower) is giving visibility on the baseline and tactical planning from Plants and FAL focusing on the key network milestones not on the detailed production planning inside a plant/FAL that remains under the local responsibility.
+The Manufacturing Operations Management Cockpit is an Airbus application aimed at providing FALs personnel with the information they need to perform their work It provides generic aggregated information via a set of widget on a navigation page each widget leads to a dashboard.

@@ -1,0 +1,142 @@
+Question: What is eFADEC ?
+Answer: The project is responsible for consumption of files from PW and RR to the engine manufacturers.
+Question: What is the technology stack used in eFADEC?
+Answer: Technology stack used in eFADEC are python, nodejs, python, AWS, Mulesoft.
+Question: What is ALGF?
+Answer: The project is responsible to dispatch the airline data on Ground and forward it to shared airbus files and sarparsing server to make it available in skywise foundry.
+Question: What is the technology stack used in ALGF?
+Answer: Technology stack used is Java.
+Question: What is Aclist?
+Answer: The project is a java microservice deployed in an Ec2 machine to provide the aircraft info to the interfaces via a REST API
+Question: What is Technology stack used in Aclist?
+Answer: Technology stack used is  java springboot, maven, AWS.
+Question: What is SGC Dispatcher?
+Answer: The project is responsible for dispatching the Airline data on Ground and made it available in skywise foundry.
+Question: What is Technology stack used in SGC Dispatcher?
+Answer: Technology  stack used is serverless, AWS, Java, python.
+Question: Who is responsible for handling Asgard Team?
+Answer: Responsibility is with Whole Asgard Team and no specific distribution between team members.
+Question: What is Datapunk ?
+Answer: This team develop tools and maintain those that are currently under use by Airbus suppliers.
+Question: What is the technology stack used in DataPunk?
+Answer: Technology stack used is Code repo(Pyspark & SQL), Object Ontology, Slate(SQL & Javascript), Contours.
+Question: Who is responsible for handling DataPunk?
+Responsibility: We don’t have any specific responsibilities assigned regarding activities, everyone in team knows how to  handle all the things we work with.
+
+Question: Who is the scrum master in DataPunk?
+Answer: The scrun master is Scrum Master: Nicolas Borgna(France).
+Question: Who is the Tech Lead in DataPunk?
+Answer: The Tech Lead is Yosra Yacoubi(France).
+Question: Who is the Developer in DataPunk?
+Answer: The Developers  are Manoah and Shashank.
+Question: What is DCS?
+Answer: It contains many applications for visualization and analysis on  shop finding reports. 
+Question: What is the technology used in DCS?
+Answer The technology used is Pyspark and foundry.
+Question: Who is responsible for handling DCS?
+Answer: In DCS the responsible person is whole team where  technical lead is Santosh and developer is Pawan and onshore manager is eric brevet.
+Question: What is ISARD?
+Answer: ISARD means In-service Aircraft Referential data It is a dashboard which registers MSN Changes in a backend and propagates them to enterprise data hubs such as ACMM and Skywise Objective is not to provide directly the data to any customer application but they must retrieve information from enterprise data hubs.
+Question: What is SNCT?
+Answer: SNCT(Supply Network Control Tower) is giving visibility on the baseline and tactical planning from Plants and FAL focusing on the key network milestones not on the detailed production planning inside a plant/FAL that remains under the local responsibility.
+Question: What is Mom Cockpit?
+Answer: The Manufacturing Operations Management Cockpit is an Airbus application aimed at providing FALs personnel with the information they need to perform their work It provides generic aggregated information via a set of widget on a navigation page each widget leads to a dashboard.
+Question: What is React Server Components (RSC)?
+Answer: React Server Components (RSC) were announced as an experimental demo in December 2020.
+
+Question: When was React Server Components (RSC) announced?
+Answer: React Server Components (RSC) were announced in December 2020.
+
+Question: What has been the progress since the announcement of React Server Components?
+Answer: Since the announcement of React Server Components, progress has been made in finishing up its dependencies in React 18 and working on changes inspired by experimental feedback.
+
+Question: What significant change has been made regarding I/O libraries in React Server Components?
+Answer: The idea of having forked I/O libraries (e.g., react-fetch) has been abandoned in favor of adopting an async/await model for better compatibility.
+
+Question: How does the change in I/O libraries affect the release of React Server Components?
+Answer: The change in I/O libraries does not technically block the release of React Server Components because routers can also be used for data fetching.
+
+Question: What approach is being adopted instead of the file extension approach in React Server Components?
+Answer: React Server Components are moving away from the file extension approach in favor of annotating boundaries.
+
+Question: Who is collaborating to unify bundler support for React Server Components?
+Answer: Collaboration is happening with Vercel and Shopify to unify bundler support for React Server Components in both Webpack and Vite.
+
+Question: What is the objective before the launch of React Server Components?
+Answer: Before the launch of React Server Components, the objective is to ensure that the semantics of RSCs are the same across the entire React ecosystem. This is the major blocker for reaching stability.
+
+Question: What types of assets are typically preloaded and loaded using external systems?
+Answer: Scripts, external styles, fonts, and images are typically preloaded and loaded using external systems.
+
+Question: What is the current challenge with coordinating assets across new environments like streaming and server components?
+Answer: It can be tricky to coordinate assets across new environments like streaming and server components.
+
+Question: What is the proposed solution to address the challenge of coordinating assets across different environments?
+Answer: APIs are being considered to preload and load deduplicated external assets through React APIs that work in all React environments.
+
+Question: How is the support for Suspense being integrated with asset loading?
+Answer: Support for Suspense is being integrated so that images, CSS, and fonts can block display until they're loaded without blocking streaming and concurrent rendering.
+
+Question: What issue does integrating Suspense with asset loading aim to resolve?
+Answer: Integrating Suspense with asset loading aims to avoid "popcorning," where visuals pop and layout shifts occur due to assets being loaded asynchronously.
+
+Question: What are the two techniques mentioned as great ways to achieve performance for cacheable pages?
+Answer: Static Site Generation (SSG) and Incremental Static Regeneration (ISR) are mentioned as great ways to achieve performance for cacheable pages.
+
+Question: What is the focus of the optimization efforts for dynamic Server Side Rendering (SSR)?
+Answer: The optimization efforts for dynamic Server Side Rendering (SSR) focus on improving performance, especially when most but not all of the content is cacheable.
+
+Question: How does the optimization of server rendering aim to achieve improved performance?
+Answer: The optimization of server rendering aims to utilize compilation and static passes to achieve improved performance.
+
+Question: What specific techniques are being explored to optimize server rendering?
+Answer: Techniques such as compilation and static passes are being explored to optimize server rendering.
+
+Question: Apart from Static Site Generation (SSG) and Incremental Static Regeneration (ISR), what other rendering approach is being targeted for optimization?
+Answer: Dynamic Server Side Rendering (SSR) is being targeted for optimization, particularly focusing on scenarios where most, but not all, content is cacheable.
+
+Question: What is the purpose of the React Optimizing Compiler?
+Answer: The React Optimizing Compiler is designed to automatically generate the equivalent of useMemo and useCallback calls to minimize the cost of re-rendering, while retaining Reacts programming model.
+
+Question: What advantages does the new architecture of the React Optimizing Compiler offer?
+Answer: The new architecture allows for the analysis and memoization of more complex patterns, such as the use of local mutations. It also opens up many new compile-time optimization opportunities beyond just being on par with memoization hooks.
+
+Question: What additional tool is being developed alongside the React Optimizing Compiler?
+Answer: A playground is being developed for exploring many aspects of the compiler.
+
+Question: What is the purpose of the playground for the React Optimizing Compiler?
+Answer: The playground aims to make development of the compiler easier and provides an opportunity to try it out and build intuition for what the compiler does. It reveals various insights into how it works under the hood and live renders the compilers outputs as you type.
+
+Question: When will the playground for the React Optimizing Compiler be available?
+Answer: The playground will be shipped together with the compiler when its released.
+
+Question : What is ISARD?
+Answer : ISARD means In-service Aircraft Referential data. It is a dashboard which registers MSN Changes in a backend and propagates them to enterprise data hubs such as ACMM and Skywise. Objective is not to provide directly the data to any customer application, 
+but they must retrieve information from enterprise data hubs.
+
+
+Question : What are the key points about ISARD?
+Answer : ISARD means In-service Aircraft Referential data. It is a dashboard which registers MSN Changes in a backend and propagates them to enterprise data hubs such as ACMM and Skywise. Objective is not to provide directly the data to any customer application, 
+but they must retrieve information from enterprise data hubs.
+
+
+Question : Can you explain ISARD?
+Answer : ISARD means In-service Aircraft Referential data. It is a dashboard which registers MSN Changes in a backend and propagates them to enterprise data hubs such as ACMM and Skywise. Objective is not to provide directly the data to any customer application, 
+but they must retrieve information from enterprise data hubs.
+
+Question : What are different projects on Asgard?
+Answer : In Asgard there are 3 projects SGC-2e12,eFADEC-A7d2 and ALGF-1W97.
+
+Question : What is MOM CockPit?
+Answer : The Manufacturing Operations Management Cockpit is an Airbus application aimed at providing FALs personnel with the information they need to perform their work. It provides generic, aggregated information via a set of widget on a navigation page, each widget leads to a dashboard.
+
+Question : What are the key points about MOM CockPit?
+Answer : The Manufacturing Operations Management Cockpit is an Airbus application aimed at providing FALs personnel with the information they need to perform their work. It provides generic, aggregated information via a set of widget on a navigation page, each widget leads to a dashboard.
+
+Question : Can you explain MOM CockPit?
+Answer : The Manufacturing Operations Management Cockpit is an Airbus application aimed at providing FALs personnel with the information they need to perform their work. It provides generic, aggregated information via a set of widget on a navigation page, each widget leads to a dashboard.
+
+Question : What are the Mandatory Certifications for skywise ?
+Answer: E-Learning Application Security Introduction India Information Security Awareness (GDPR included) and other training was Curriculum e-learning GDPR, Let's Nail the Phishing, Agile certification
+Airbus Export control.
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chat bot Skywise</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+      }
+
+      h1 {
+        color: #333;
+      }
+
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+
+      button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The Skywise chatbot is here.</h1>
+
+    <button onclick="openWebLink()">Open Skywise Chatbot</button>
+
+    <script>
+      function openWebLink() {
+        var webLink =
+          "http://127.0.0.1:5501/chatbot-deployment-main123/standalone-frontend/base.html";
+
+        window.open(webLink, "_blank");
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,158 @@
+{
+  "intents": [
+    {
+      "tag": "ASGARD",
+      "patterns": ["Asgard Team"],
+      "responses": [
+        "<a href='https://confluence.constellation.soprasteria.com/pages/viewpage.action?spaceKey=SKYWISE&title=Asgard'>Introduction about Asgard Team</a>"
+      ]
+    },
+    {
+      "tag": "Data Punk",
+      "patterns": ["Data Punk Team"],
+      "responses": [
+        "<a href='https://confluence.constellation.soprasteria.com/display/SKYWISE/DATA+PUNK'>Introduction about Data punk team </a>"
+      ]
+    },
+    {
+      "tag": "ISARD",
+      "patterns": ["ISARD TEAM"],
+      "responses": [
+        "<a href='https://confluence.constellation.soprasteria.com/display/SKYWISE/ISARD'>Introduction about ISARD Team</a>"
+      ]
+    },
+    {
+      "tag": "SNCT",
+      "patterns": ["SNCT TEAM"],
+      "responses": [
+        "<a href='https://confluence.constellation.soprasteria.com/display/SKYWISE/SNCT'>Introduction about SNCT Team</a>"
+      ]
+    },
+    {
+      "tag": "MOM Cockpit",
+      "patterns": ["MOM Cockpit"],
+      "responses": [
+        "<a href='https://confluence.constellation.soprasteria.com/display/SKYWISE/MOM+CockPit'>Introduction about MOM Cockpit</a>"
+      ]
+    },
+    {
+      "tag": "Offboarding Process",
+      "patterns": ["Skywise Offboarding Process"],
+      "responses": [
+        "<a href='https://confluence.constellation.soprasteria.com/display/SKYWISE/Skywise+Offboarding+Process'>Click here to know about Skwise offboarding Process </a>"
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": ["hey"],
+      "responses": ["How are you?"]
+    },
+    {
+      "tag": "farewell",
+      "patterns": ["bye"],
+      "responses": ["Goodbye!"]
+    },
+    {
+      "tag": "question",
+      "patterns": ["what's up"],
+      "responses": ["Not much just chilling."]
+    },
+    {
+      "tag": "link",
+      "patterns": ["what is link of google"],
+      "responses": ["www.google.com"]
+    },
+    {
+      "tag": "kalim",
+      "patterns": ["who is kalim"],
+      "responses": ["kalim is frontend developer."]
+    },
+    {
+      "tag": "greeting",
+      "patterns": ["hey"],
+      "responses": ["How are you?"]
+    },
+    {
+      "tag": "farewell",
+      "patterns": ["bye"],
+      "responses": ["Goodbye!"]
+    },
+    {
+      "tag": "question",
+      "patterns": ["what's up"],
+      "responses": ["Not much just chilling."]
+    },
+    {
+      "tag": "link",
+      "patterns": ["what is link of google"],
+      "responses": ["www.google.com"]
+    },
+    {
+      "tag": "kalim",
+      "patterns": ["who is kalim"],
+      "responses": ["kalim is frontend developer."]
+    },
+    {
+      "tag": "greeting",
+      "patterns": ["hey"],
+      "responses": ["How are you?"]
+    },
+    {
+      "tag": "farewell",
+      "patterns": ["bye"],
+      "responses": ["Goodbye!"]
+    },
+    {
+      "tag": "question",
+      "patterns": ["what's up"],
+      "responses": ["Not much just chilling."]
+    },
+    {
+      "tag": "link",
+      "patterns": ["what is link of google"],
+      "responses": ["www.google.com"]
+    },
+    {
+      "tag": "kalim",
+      "patterns": ["who is kalim"],
+      "responses": ["kalim is frontend developer."]
+    },
+    {
+      "tag": "reddy. who is reddy",
+      "patterns": ["reddy is scrum master"],
+      "responses": ["nan"]
+    },
+    {
+      "tag": "greeting",
+      "patterns": ["hey"],
+      "responses": ["How are you?"]
+    },
+    {
+      "tag": "farewell",
+      "patterns": ["bye"],
+      "responses": ["Goodbye!"]
+    },
+
+    {
+      "tag": "question",
+      "patterns": ["what's up"],
+      "responses": ["Not much just chilling."]
+    },
+    {
+      "tag": "link",
+      "patterns": ["what is link of google"],
+      "responses": ["www.google.com"]
+    },
+    {
+      "tag": "kalim",
+      "patterns": ["who is kalim"],
+      "responses": ["kalim is frontend developer."]
+    },
+    {
+      "tag": "reddy",
+      "patterns": ["who is reddy"],
+      "responses": ["reddy is scrum master"]
+    }
+  ],
+  "formatted_data": []
+}
